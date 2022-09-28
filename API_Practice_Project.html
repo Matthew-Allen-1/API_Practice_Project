@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="API_Practice_Project.css">
+    <title>Document</title>
+</head>
+
+<body id="body">
+    <h1>Card Shuffling and Dealing API</h1>
+    <div id = 'container'>
+        <div id = 'btn-container'>
+            <button class = 'btn' onclick = 'shuffleDeck()'>Shuffle the Deck</button>
+            <button class = 'btn' onclick = 'drawCards(1)'>Draw One Cards</button>
+            <button class = 'btn' onclick = 'drawCards(2)'>Draw Two Cards</button>
+            <button class = 'btn' onclick = 'drawCards(3)'>Draw Three Cards</button>
+            <button class = 'btn' onclick = 'drawCards(4)'>Draw Four Cards</button>
+            <button class = 'btn' onclick = 'drawCards(5)'>Draw Five Cards</button>
+        </div>
+        <p id = 'message1'></p>
+        <p id = 'message2'></p>
+        <div id = 'card-container'>
+            <span id = 'card0' class = 'card'></span>
+            <span id = 'card1' class = 'card'></span>
+            <span id = 'card2' class = 'card'></span>
+            <span id = 'card3' class = 'card'></span>
+            <span id = 'card4' class = 'card'></span>
+        </div>
+        <!-- <p> Inspirational quotes provided by <a href="https://zenquotes.io/" target="_blank">ZenQuotes API</a></p> -->
+    </div>
+</body>
+
+<script src = "API_Practice_Project.js"></script>
+
+</html>
+

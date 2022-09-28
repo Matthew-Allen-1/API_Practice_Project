@@ -1,0 +1,32 @@
+h1 {
+    font-size: 2em;
+    color: blue;
+    margin: 20px 0;
+    text-align: center;
+}
+
+p {
+    font-size: 1.6em; 
+    color: darkgreen;
+    margin: 10px 10px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.btn {
+    width: 180px;
+    height: 60px;
+    margin: 5px 5px;
+    background-color: lightblue;
+    font-size: 1.2em;
+}
+
+.card {
+    margin: 10px 10px;
+}
+
